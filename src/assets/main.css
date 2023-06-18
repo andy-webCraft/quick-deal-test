@@ -1,0 +1,55 @@
+@import "./normalize.css";
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f7f7f7;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+body.lock {
+  padding-right: 17px;
+  overflow-y: hidden;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.btn {
+  color: #ffffff;
+  background-color: #8b9dc3;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.btn[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.input {
+  width: 300px;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.75rem;
+}
+
+.input:focus {
+  box-shadow: 0px 5px 10px 0px rgba(34, 60, 80, 0.2);
+}
+
+.input-wrapper {
+  margin-bottom: 1rem;
+}
+
+.router-link-exact-active {
+  color: #dfe3ee;
+  text-decoration: underline;
+}
