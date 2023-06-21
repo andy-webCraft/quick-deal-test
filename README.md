@@ -1,5 +1,13 @@
 # quick-deal-test
 
+[Live Demo](https://quick-deal-test.onrender.com/)
+
+## Stack:
+- vue 2
+- vue-router
+- vuex
+- typescript
+
 ## Project Setup
 
 ```sh
