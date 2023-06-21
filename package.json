@@ -1,5 +1,6 @@
 {
   "name": "quick-deal-test",
+  "homepage": ".",
   "version": "1.0.0",
   "author": "andy-webCraft",
   "scripts": {
